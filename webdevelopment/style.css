@@ -36,3 +36,17 @@ p{
     background-color: #bcbdbf;
     color: #000000;
 }
+/* Download button styling */
+.download-button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 12px;
+    border: 2px solid #000000;
+    font-size: 16px;
+    cursor: pointer;
+}
+.download-button:hover {
+    background-color: #000000;
+    color: #a51e22;
+}
