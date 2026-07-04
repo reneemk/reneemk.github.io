@@ -72,5 +72,6 @@ p{
 /* List item styling */
 .list-item {
     color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
 }
