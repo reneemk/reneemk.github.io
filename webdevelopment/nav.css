@@ -1,0 +1,29 @@
+/* navigation style */
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 0;
+    padding: 15px 0;
+    background-color: #000000;
+}
+/* navigation links */
+.navigation a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    padding: 10px 15px;
+    display: inline-block;
+    /* navigation li*/
+.navigation li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* navigation links hover effect */
+.navigation a:hover {
+    background-color: #a51e22;
+    color: #ffffff;
+}
