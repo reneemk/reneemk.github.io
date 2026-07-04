@@ -36,7 +36,7 @@ header {
     background-color: #a51e22;
     color: #ffffff;
 }
-logo {
+.logo {
     display: flex;
     width: 50px;
     height: auto;
