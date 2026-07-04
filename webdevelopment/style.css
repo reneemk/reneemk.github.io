@@ -5,11 +5,23 @@ body {
     padding: 0;
     background-color: #ffffff;
 }
-/* Heading styling */
+/* Heading 1 styling */
 h1 {
     color: #a51e22;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 36px;
+}
+/* Heading 2 styling */
+h2 {
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+/* Heading 3 styling */
+h3 {
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
 }
 /* Paragraph styling */
 p{
@@ -49,4 +61,17 @@ p{
 .download-button:hover {
     background-color: #000000;
     color: #a51e22;
+}
+/*Unordered list styling */
+.unordered-list {
+    list-style-type: square;
+    margin: 0;
+    padding-left: 20px;
+    display: flex;
+    gap: 15px;
+}
+/* List item styling */
+.list-item {
+    color: #000000;
+    font-size: 18px;
 }
