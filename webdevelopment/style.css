@@ -67,7 +67,6 @@ p{
     list-style-type: square;
     margin: 0;
     padding-left: 20px;
-    display: flex;
     gap: 15px;
 }
 /* List item styling */
