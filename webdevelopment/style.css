@@ -65,7 +65,7 @@ p{
 /*Unordered list styling */
 .unordered-list {
     list-style-type: square;
-    margin: 0px;
+    margin: 30px;
     padding-left: 20px;
 }
 /* List item styling */
