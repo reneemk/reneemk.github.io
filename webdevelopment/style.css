@@ -24,7 +24,7 @@ h3 {
     font-size: 24px;
 }
 /* Paragraph styling */
-p{
+p {
     color: #000000;
     font-size: 18px;
 }
@@ -50,7 +50,7 @@ p{
 }
 /* Download button styling */
 .download-button {
-    display:inline-block;
+    display: inline-block;
     background-color: #c6c2c2;
     color: #000000;
     padding: 10px 20px;
@@ -63,7 +63,7 @@ p{
     background-color: #000000;
     color: #ffffff;
 }
-/*Unordered list styling */
+/* Unordered list styling */
 .unordered-list {
     list-style-type: square;
     margin: 30px;
@@ -98,12 +98,12 @@ p{
     font-weight: bold;
     color: #000000;
     float: left;
-    line-height: .8;
+    line-height: 0.8;
     padding-right: 8px;
     padding-top: 0px;
     margin-top: 2px;
 }
-    /* Resource box styling */
+    /* Resource box styling. Borders are for demonstrating the box model and will be removed in final version of the website. */
 .resource-box {
     border: 2px solid #000000;
     padding: 20px;
