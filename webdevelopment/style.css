@@ -87,11 +87,12 @@ p{
 .sources li {
     margin-bottom: 10px;
 }
-/* Intro paragraph styling */
+/* Body text paragraph styling that includes pseudo-element */
 .body-text {
     text-indent: 30px;
     line-height: 1;
 }
+/* Intro paragraph styling that includes a pseudo-element */
 .intro::first-letter {
     font-size: 4em;
     font-weight: bold;
