@@ -148,7 +148,7 @@ p {
 @page {
     margin: 1in;
 }
-/* Print styling */
+/* Print styling - including most of written content because I'm not sure how to match my page with the listed requirements*/
 @media print {
     nav, .button, .download-button, img, .float-image, .video, .logo {
         display: none;
@@ -159,7 +159,7 @@ p {
         font-family: Palatino, Georgia, serif;
         background-color: #ffffff;
     }
-    p {
+    p { 
         margin: 5px 0;
         line-height: 1.2;
     }
@@ -169,6 +169,10 @@ p {
         font-size: 10pt;
     }
     footer {
+        background-image: webcontent/footer-background.jpg;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         font-size: 10pt;
         margin-top: 20px;
     }
