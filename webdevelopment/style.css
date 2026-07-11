@@ -58,7 +58,7 @@ p {
     background-color: #c6c2c2;
     color: #000000;
     padding: 10px 20px;
-    margin: 55px 0px;
+    margin: 55px 0;
     border: 2px solid #000000;
     font-size: 16px;
     cursor: pointer;
@@ -104,7 +104,7 @@ p {
     float: left;
     line-height: 0.8;
     padding-right: 8px;
-    padding-top: 0px;
+    padding-top: 0;
     margin-top: 2px;
 }
     /* Resource box styling. Borders are for demonstrating the box model and will be removed in final version of the website. */
@@ -135,7 +135,7 @@ p {
     width: 100%;
     max-width: 250px;
     height: auto;
-    margin: 0px 40px 20px 0;
+    margin: 0 40px 20px 0;
     border: 2px solid #000000;
 }   
 /* Video styling */
@@ -174,11 +174,21 @@ p {
         font-size: 10pt;
     }
     footer {
-        background-image: webcontent/footer-background.jpg;
+        background-image: none;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         font-size: 10pt;
-
     }
+}
+footer {
+    background-image: url("webcontent/footer-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 20px;
+    padding: 15px;
 }
