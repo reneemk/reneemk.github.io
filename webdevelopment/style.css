@@ -115,9 +115,17 @@ p {
     max-width: 250px;
     height: auto;
     margin: 20px 0;
-    padding: 10px;
     border: 2px solid #000000;
 }
+/* Float image styling so text flows next to the photos */
+.float-image {
+    float: left;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 20px 0;
+    border: 2px solid #000000;
+}   
 /* Video styling */
 .video {
     max-width: 100%;
