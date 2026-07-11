@@ -10,23 +10,27 @@ h1 {
     color: #a51e22;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 36px;
+    clear: both;
 }
 /* Heading 2 styling */
 h2 {
     color: #000000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
+    clear: both;
 }
 /* Heading 3 styling */
 h3 {
     color: #000000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
+    clear: both;
 }
 /* Paragraph styling */
 p {
     color: #000000;
     font-size: 18px;
+    line-height: 1.5;
 }
 /* Hero section styling */
 .hero {
@@ -131,7 +135,7 @@ p {
     width: 100%;
     max-width: 250px;
     height: auto;
-    margin: 20px 20px 20px 0;
+    margin: 20px 40px 20px 0;
     border: 2px solid #000000;
 }   
 /* Video styling */
