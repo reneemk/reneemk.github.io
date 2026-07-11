@@ -181,6 +181,7 @@ p {
         font-size: 10pt;
     }
 }
+/* footer styling */
 footer {
     background-image: url("webcontent/footer-background.jpg");
     background-size: cover;
@@ -192,4 +193,12 @@ footer {
     text-align: left;
     margin-top: 20px;
     padding: 15px;
+}
+/* footer icon styling */
+footer img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    object-fit: contain;
+    margin-right: 5px;
 }
