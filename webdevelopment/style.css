@@ -144,3 +144,31 @@ p {
     height: auto;
     margin: 20px 0;
 }
+/* Margin for printing */
+@page {
+    margin: 1in;
+}
+/* Print styling */
+@media print {
+    nav, .button, .download-button, img, .float-image {
+        display: none;
+    }
+    body {
+        color: #000000; 
+        font-size: 10pt;
+        font-family: Palatino, Georgia, serif;
+        background-color: #ffffff;
+    }
+    p {
+        margin: 5px 0;
+        line-height: 1.2;
+    }
+    h1, h2, h3, p, li, footer {
+        color: #000000;
+        font-family: Palatino, Georgia, serif;
+    }
+    footer {
+        font-size: 10pt;
+        margin-top: 20px;
+    }
+}
