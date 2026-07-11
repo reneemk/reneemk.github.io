@@ -150,7 +150,7 @@ p {
 }
 /* Print styling */
 @media print {
-    nav, .button, .download-button, img, .float-image {
+    nav, .button, .download-button, img, .float-image, .video, .logo {
         display: none;
     }
     body {
@@ -166,6 +166,7 @@ p {
     h1, h2, h3, p, li, footer {
         color: #000000;
         font-family: Palatino, Georgia, serif;
+        font-size: 10pt;
     }
     footer {
         font-size: 10pt;
