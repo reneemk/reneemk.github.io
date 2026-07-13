@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <!--
+  Name: Renee Martin-Kratzer
+  Date: July 12, 2026
+  Course: Web Design and Development
+  Description: This is the contact page for the Missouri Photo Workshop's Traveling Exhibit. -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+         <!-- Link to external CSS for styling -->  <link rel="stylesheet" href="style.css">
+       <!-- Link to external CSS for navigation styling -->  <link rel="stylesheet" href="nav.css">
+    </head>
+    <body>
+               <header> 
+             <!-- This is the official logo for the Missouri Photo Workshop --> 
+            <a href="index.html">
+                <img src="webcontent/MPW78logocrop.jpg" alt="official logo" class="logo">
+            </a>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="exhibitthemes.html">Exhibit Themes</a></li>
+                    <li class="dropdown">
+                        <a href="resources.html">Resources</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#books">Books</a></li>
+                            <li><a href="#news">In the News</a></li>
+                            <li><a href="#past">Past Workshops</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            </header>
+       <!-- The main content will go below -->
+        <main>
+         <h1>Are you interested in bringing the Missouri Photo Workshop to your town? Do you have questions about the workshop? Contact us!</h1>
+         <!-- The form content is below -->
+         <form action="#" method="get">
+            <label for="title">Choose a title:</label><br>
+            <select id="title" name="title">
+                <option value="dr">Dr.</option>
+                <option value="mr">Mr.</option>
+                <option value="mrs">Mrs.</option>
+                <option value="ms">Ms.</option>
+            </select><br>
+            <label for="firstname">First name:</label><br>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" required><br>
+            <label for="lastname">Last name:</label><br>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+            <label for="phone">Phone number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br>
+            <label for="message">Message:</label><br>
+            <label for="interest">What are you contacting us about?</label><br>
+            <select id="interest" name="interest">
+                <option value="exhibit">Bringing the exhibit to my town</option>
+                <option value="workshop">Questions about the workshop</option>
+                <option value="other">Other inquiries</option>
+            </select><br>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+         </main>
+         <!-- The footer content is at the end -->
+            <footer>Renee Martin-Kratzer<br>
+                <img src="webcontent/email-80.png" alt="Email Icon"> ReneeMK@yahoo.com<br>
+                <img src="webcontent/phone-100.png" alt="Phone Icon"> 573-123-4567<br>
+                <img src="webcontent/calendar-48.png" alt="Calendar Icon"> July 12, 2026
+            </footer> 
+    </body>
+</html> 
