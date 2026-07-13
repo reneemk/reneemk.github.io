@@ -218,7 +218,7 @@ form label {
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
     font-family: Palatino, Georgia, serif;
 }
 /* form styling for the inputs */
@@ -248,5 +248,5 @@ form input[type="submit"] {
 /* form styling for the hover button */
 form input[type="submit"]:hover {
     background-color: #a51e22;
-    color: #000000; 
+    color: #ffffff; 
 }
