@@ -202,3 +202,48 @@ footer img {
     object-fit: contain;
     margin-right: 5px;
 }
+/* form styling */
+form {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+/* form styling for the labels */
+form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+/* form styling for the inputs */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    resize: vertical;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/* form styling for the submit button */
+form input[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}    
+/* form styling for the hover button */
+form input[type="submit"]:hover {
+    background-color: #f9f9f9;
+    color: #000000; 
+}
