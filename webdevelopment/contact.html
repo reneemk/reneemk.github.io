@@ -40,7 +40,7 @@
         <main>
          <h1>Are you interested in bringing the Missouri Photo Workshop to your town? Do you have questions about the workshop? Contact us!</h1>
          <!-- The form content is below -->
-         <form action="#" method="get">
+         <form action="mailto:bkratzer@gmail.com" method="post" enctype="text/plain">
             <label for="title">Choose a title:</label><br>
             <select id="title" name="title">
                 <option value="dr">Dr.</option>
@@ -56,13 +56,13 @@
             <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
             <label for="phone">Phone number:</label><br>
             <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br>
-            <label for="message">Message:</label><br>
             <label for="interest">What are you contacting us about?</label><br>
             <select id="interest" name="interest">
                 <option value="exhibit">Bringing the exhibit to my town</option>
                 <option value="workshop">Questions about the workshop</option>
                 <option value="other">Other inquiries</option>
             </select><br>
+             <label for="message">Message:</label><br>
             <textarea id="message" name="message" placeholder="Enter your message" required></textarea><br>
             <input type="submit" value="Submit">
         </form>
