@@ -218,6 +218,8 @@ form label {
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: bold;
+    font-size: 18px;
+    font-family: Palatino, Georgia, serif;
 }
 /* form styling for the inputs */
 form input[type="text"],
