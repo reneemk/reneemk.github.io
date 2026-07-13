@@ -45,6 +45,7 @@ p {
     color: #ffffff;
     padding: 10px 20px;
     font-size: 16px;
+    border-radius: 5px;
     cursor: pointer;
 }
 /* Button hover styling */
@@ -244,6 +245,6 @@ form input[type="submit"] {
 }    
 /* form styling for the hover button */
 form input[type="submit"]:hover {
-    background-color: #f9f9f9;
+    background-color: #a51e22;
     color: #000000; 
 }
