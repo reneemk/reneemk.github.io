@@ -1,11 +1,12 @@
 /* site header style*/
 header {
     display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; 
     background-color: #000000;
     color: #ffffff;
     padding: 5px 0;
     text-align: center;
-    justify-content: space-between;
 }
 /* navigation style */
 .navigation {
