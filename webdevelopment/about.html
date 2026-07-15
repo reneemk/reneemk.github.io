@@ -3,7 +3,7 @@
  <head>
      <!--
   Name: Renee Martin-Kratzer
-  Date: July 10, 2026
+  Date: July 15, 2026
   Course: Web Design and Development
   Description: This is the about page for my website. It includes the basic structure of an HTML document, with a linked CSS file for styling. More content will be added as we progress through the course.-->
         <meta charset="UTF-8">
@@ -37,21 +37,26 @@
             </header>
        <!-- The main content will go below -->
         <main>
-         <h1>About The Exhibit</h1>
-         <h2>Clifton Edom, often credited as the “father of photojournalism,” started the Missouri Photo Workshop in 1949.</h2>
-         <!-- Link to image of Cliff --> 
+                   <!-- Grid layout for content -->
+            <div class="grid-container"></div>
+             <h1>Learn more about the Missouri Photo Workshop's Traveling Exhibit</h1>
+            <video controls width="400" class="video"> <source src="webcontent/MPWsmall.mp4" type="video/mp4" alt="Missouri Photo Workshop Video"> Your browser does not support the video tag. </video>
+          <!-- Link to image of Cliff --> 
          <img src="webcontent/cliffedom.jpg" alt="Clifton Edom" class="float-image">
-        <p>Cliff was inspired by the work of the Farm Security Administration photojournalists who captured life in America during the Great Depression. The workshop started in Columbia, Missouri, and has branched out to more than 50 rural towns over the past 7 decades.</p> 
+        <section>
+            <h2>How the Missouri Photo Workshop Began</h2>  
+         <p>Clifton Edom, often credited as the “father of photojournalism,” started the Missouri Photo Workshop in 1949. Cliff was inspired by the Farm Security Administration photojournalists who captured life in America during the Great Depression. The workshop started in Columbia, Missouri, and has branched out to more than 50 rural towns over the past seven decades.</p>
+        </section>
+            <!-- Link to image of Brian --> 
+            <img src="webcontent/briankratzer.jpg" alt="Brian Kratzer" class="float-image">
+            <section>
+            <h2>About The Workshop Director</h2>
+            <p>Brian Kratzer is a professor at the University of Missouri and the photo director for the Columbia Missourian. During his career, he has worked at the Moscow-Pullman Daily News, the Columbia Daily Tribune and the Gainesville Sun. Brian was a participant in the Missouri Photo Workshop as a graduate student at the University of Missouri and later served as a faculty member. He became director of the workshop in 2019 and is committed to helping photojournalists learn the value of telling longer stories.</p>
+        </section>  
+
         <h3>Workshop faculty</h3>
         <p>The faculty is made up of accomplished photo editors from America's leading newspapers, magazines and online news organizations. The workshop still follows Cliff’s motto: “Show truth with a camera. Ideally truth is a matter of personal integrity. In no circumstances will a posed or faked photograph be tolerated.” This exhibit features one photograph from each of the workshop years and documents daily life in Missouri from 1949 to today.</p>
-         <h1>About The Workshop Director</h1>
-         <!-- Link to image of Brian --> 
-          <img src="webcontent/briankratzer.jpg" alt="Brian Kratzer" class="float-image">
-         <p>Brian Kratzer is a professor at the University of Missouri and the photo director for the Columbia Missourian. During his career, he has worked at the Moscow-Pullman Daily News, the Columbia Daily Tribune and the Gainesville Sun. Brian was a participant in the Missouri Photo Workshop as a graduate student at the University of Missouri and later served as a faculty member. He became director of the workshop in 2019 and is committed to helping photojournalists learn the value of telling longer stories.</p> 
-         <div class="clear"></div>  
-               <!-- Note to professor — I was able to figure out how to use Premiere to export my Quicktime video at a smaller size that GitHub accepted. Whew! Let me know if this content is OK. As I mentioned in the email, the audio is not great because he was in a tent, so we can redo this.-->
-         <h3>Missouri Photo Workshop Video</h3>
-               <video controls width="400" class="video"> <source src="webcontent/MPWsmall.mp4" type="video/mp4" alt="Missouri Photo Workshop Video"> Your browser does not support the video tag. </video>
+        
          <h3>Workshop Highlights</h3>
          <ul class="unordered-list">
             <li>Teaching more than 3,000 photojournalists how to shoot and edit a photo story</li>
@@ -65,7 +70,7 @@
             <footer>Renee Martin-Kratzer<br>
                 <img src="webcontent/email-80.png" alt="Email Icon"> ReneeMK@yahoo.com<br>
                 <img src="webcontent/phone-100.png" alt="Phone Icon"> 573-123-4567<br>
-                <img src="webcontent/calendar-48.png" alt="Calendar Icon"> July 12, 2026
+                <img src="webcontent/calendar-48.png" alt="Calendar Icon"> July 15, 2026
             </footer>              
     </body>
 </html>
