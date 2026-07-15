@@ -116,8 +116,8 @@ p {
 }
 /* Logo styling */
 .logo {
-    width: 300px;
-    max-width: 100%;
+    width: 60%;
+    max-width: 500px;
     height: auto;
     display: block;
     margin: 5px auto;
