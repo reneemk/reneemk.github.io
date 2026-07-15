@@ -39,9 +39,6 @@ header {
 main {
   grid-area: main;
 }
-aside {
-  grid-area: hours;
-}
 footer {
   grid-area: footer;
 }
@@ -142,6 +139,8 @@ img[src*="muffin"] {
 
 /* aside "hours" styles */
 aside {
+  grid-column: 2;
+  grid-row: 2
   background: url(images/scallop.png) repeat-y left top;
   background-color: #F6F3ED;
   padding: 1em;
