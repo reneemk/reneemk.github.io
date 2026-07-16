@@ -1,5 +1,5 @@
-/* Grid styling */
-main {
+/* Grid styling for the About page */
+.about-grid {
     display: grid;
     /* Three columns */
 grid-template-columns: 1fr 2fr 2fr; 
