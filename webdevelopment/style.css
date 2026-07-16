@@ -50,23 +50,22 @@ p {
 }
 /* Button hover styling */
 .button:hover {
-    background-color: #bcbdbf;
-    color: #000000;
+     background-color: #a51e22;
+    color: #ffffff; 
 }
 /* Download button styling */
 .download-button {
-    display: inline-block;
-    background-color: #c6c2c2;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
     padding: 10px 20px;
-    margin: 55px 0;
-    border: 2px solid #000000;
     font-size: 16px;
     cursor: pointer;
 }
 .download-button:hover {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #a51e22;
+    color: #ffffff; 
 }
 /* Unordered list styling */
 .unordered-list {
