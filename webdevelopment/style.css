@@ -21,9 +21,8 @@ padding: 20px;
     display: block;
 }
 /* Row 2 and 3 styling; photo styling */
-main img {
+main figure img {
     width: 100%;
-    max-width: 200px;
     height: auto;
     display: block;
     border: 2px solid #000000;
@@ -54,14 +53,17 @@ main hi {
 }
 /* figure caption styling */
 figure {
+    width: 100%;
+    max-width: 200px; /* This makes it same width of image on About page */
     margin: 0;
 }
 figcaption {
+    width: 100%;
     font-size: 14px;
     font-style: italic;
     margin-top: 5px;
 }
-
+/* main figure image styling is above with the rows */
 /* Body styling */
 body {
     font-family: Palatino, Georgia, serif;
