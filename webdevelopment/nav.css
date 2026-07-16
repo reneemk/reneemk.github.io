@@ -76,26 +76,40 @@ header {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.mobile-menu {
-  display: none;
+/* Hide the checkbox */
+#menu-toggle {
+    display: none;
 }
+/* Hamburger icon style*/
+.hamburger {
+    display: block;
+    font-size: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+}
+/* Hide navigation on small screens */
 nav {
     display: none;
 }
-#menu-toggle:checked + label + nav {
-  display: block;
+/* Show navigation when hamburger is clicked */
+#menu-toggle:checked + .hamburger + nav {
+    display: block;
 }
+/* Desktop layout */
 @media (min-width: 768px) {
+    /* Hide hamburger on desktop */
   .hamburger {
     display: none;
   }
-
-  .mobile-menu {
+/* Always show navigation on desktop */
+nav {
     display: block;
-  }
-
-  .mobile-menu ul {
+}
+/* Keep navigation horizontal */
+.navigation {
     display: flex;
-    gap: 1rem;
-  }
+    justify-content: center;
+    gap: 15px;
+}
 }
