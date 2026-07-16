@@ -301,3 +301,25 @@ form input[type="submit"]:hover {
         width: 100%;
     }
 }
+/* styling to make the About page look better on mobile devices */
+@media (max-width: 768px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+    .text-block,
+    .intro,
+    figure,
+    .row-four,
+    main h1 {
+        grid-column: 1;
+    }
+    .row-four {
+        grid-template-columns: 1fr;
+    }
+    .about-grid figure {
+        max-width: 100%;
+    }
+    body {
+        margin: 15px;
+    }
+}
