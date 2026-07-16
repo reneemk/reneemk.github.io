@@ -1,14 +1,12 @@
 /* Grid styling for the About page */
 .about-grid {
     display: grid;
-    /* Three columns */
-grid-template-columns: 1fr 2fr 2fr; 
-    /* Four rows */
-grid-template-rows: auto auto auto auto;
-gap: 25px;
-max-width: 1200px;
-margin: 0 auto;
-padding: 20px;
+    grid-template-columns: 1fr 2fr 2fr; 
+    grid-template-rows: auto auto auto auto;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 /* Row 1 styling; video styling */
 .intro {
@@ -21,14 +19,14 @@ padding: 20px;
     display: block;
 }
 /* Row 2 and 3 styling; photo styling */
-main figure img {
+figure img {
     width: 100%;
     height: auto;
     display: block;
     border: 2px solid #000000;
 } 
 /* main H1 styling */
-main hi {
+main h1 {
     grid-column: 1 / -1;
 }
 /* text item styling */
@@ -52,7 +50,7 @@ main hi {
     gap: 25px;
 }
 /* figure caption styling */
-figure {
+.about-grid figure {
     width: 100%;
     max-width: 200px; /* This makes it same width of image on About page */
     margin: 0;
@@ -63,7 +61,7 @@ figcaption {
     font-style: italic;
     margin-top: 5px;
 }
-/* main figure image styling is above with the rows */
+/* about figure image styling is above with the rows */
 /* Body styling */
 body {
     font-family: Palatino, Georgia, serif;
