@@ -52,6 +52,16 @@ main hi {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
+/* figure caption styling */
+figure {
+    margin: 0;
+}
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
 /* Body styling */
 body {
     font-family: Palatino, Georgia, serif;
