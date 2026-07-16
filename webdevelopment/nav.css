@@ -79,7 +79,10 @@ header {
 .mobile-menu {
   display: none;
 }
-#menu-toggle:checked ~ .mobile-menu {
+nav {
+    display: none;
+}
+#menu-toggle:checked + label + nav {
   display: block;
 }
 @media (min-width: 768px) {
