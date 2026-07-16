@@ -1,3 +1,54 @@
+/* Grid styling */
+main {
+    display: grid;
+    /* Three columns */
+grid-template-columns: 1fr 2fr 2fr; 
+    /* Four rows */
+grid-template-rows: auto auto auto auto;
+gap: 25px;
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+/* Row 1 styling; video styling */
+.video {
+    grid-column: 1 / -1; /* spans all three columns */
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* Row 2 and 3 styling; photo styling */
+main img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    border: 2px solid #000000;
+} 
+/* main H1 styling */
+main hi {
+    grid-column: 1 / -1;
+}
+/* text item styling */
+.text-block {
+    grid-column: span 2; /* makes content span columns 2 and 3 */
+    padding: 20px;
+}
+.text-item h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.text-item p {
+    margin: 0;
+    line-height: 1.6;
+}
+/* Row 4 spans the entire main grid */
+.row-four {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
 /* Body styling */
 body {
     font-family: Palatino, Georgia, serif;
@@ -55,6 +106,8 @@ p {
 }
 /* Download button styling */
 .download-button {
+    display: inline-block;
+    text-decoration: none;
     background-color: #000000;
     color: #ffffff;
     border: none;
@@ -72,6 +125,7 @@ p {
     list-style-type: square;
     margin: 30px;
     padding-left: 20px;
+    line-height: 1.6;
 }
 /* List item styling */
 .unordered-list li {
@@ -113,34 +167,14 @@ p {
     padding: 20px;
     margin-bottom: 20px;
 }
-/* Image styling */
+/* Image styling to be used for images not on About page */
 .image {
     width: 100%;
     max-width: 250px;
     height: auto;
     margin: 20px 0;
     border: 2px solid #000000;
-}
-/* Float image styling so text flows next to the photos */
-.float-image {
-    float: left;
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    margin: 0 40px 20px 0;
-    border: 2px solid #000000;
-}   
-/* Video styling */
-.video {
-    max-width: 100%;
-    height: auto;
-    margin: 20px 0;
-    clear: both;
-}
-/* Clears indents so video is under photo */
-.clear {
-    clear: both;
-}
+}  
 /* Margin for printing */
 @page {
     margin: 1in;
