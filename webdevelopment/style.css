@@ -11,6 +11,9 @@ margin: 0 auto;
 padding: 20px;
 }
 /* Row 1 styling; video styling */
+.intro {
+    grid-column: 1 / -1;   
+}
 .video {
     grid-column: 1 / -1; /* spans all three columns */
     width: 100%;
