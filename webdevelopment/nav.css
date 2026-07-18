@@ -39,6 +39,9 @@ header {
     background-color: #a51e22;
     color: #ffffff;
 }
+nav {
+    display: block;
+}
 /* logo style */
 .logo {
     width: 50%;
@@ -72,38 +75,17 @@ header {
 .dropdown-content a:hover {
     background-color: #a51e22;
 }
-/* show dropdown content when hovering over the parent */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 /* Hide the checkbox */
 #menu-toggle {
     display: none;
 }
-/* Hamburger icon style*/
+/* Hamburger icon style hidden by default */
 .hamburger {
-    display: block;
+    display: none;
     font-size: 2rem;
     color: #ffffff;
     cursor: pointer;
     padding: 10px;
-}
-/* Hide navigation on small screens */
-@media (max-width: 767px) {
-    nav {
-        display: none;
-}
-/* Show navigation when hamburger is clicked */
-#menu-toggle:checked + .hamburger + nav {
-        display: block;
-}
-}
-/* Stack mobile menu links vertically */
-.navigation {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 0;
 }
 /* Desktop layout */
 @media (min-width: 768px) {
@@ -111,21 +93,36 @@ header {
   .hamburger {
     display: none;
   }
-/* Always show navigation on desktop */
-nav {
+  /* show dropdown content when hovering over the parent */
+.dropdown:hover .dropdown-content {
     display: block;
-}
+    }
 /* Keeps navigation horizontal */
 .navigation {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 15px;
+    }
 }
-}
-/* Keeps submenus from floating; will remain vertical */
+/* Stack mobile menu links vertically and hide Resources submenu on mobile */
 @media (max-width: 767px) {
+    nav {
+        display: none;
+    }
+    /* Show navigation when hamburger is clicked */
+    #menu-toggle:checked + .hamburger + nav {
+        display: block;
+    }
+    .navigation {
+        flex-direction: column;
+        gap: 0;
+    }
     .dropdown-content {
+        display: none;
         position: static;
+    }
+    .hamburger {
+        display: block;
     }
 }
