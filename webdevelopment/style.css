@@ -1,67 +1,3 @@
-/* Grid styling for the About page */
-.about-grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr; 
-    grid-template-rows: auto auto auto auto;
-    gap: 25px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-/* Row 1 styling; video styling */
-.intro {
-    grid-column: 1 / -1;   
-}
-.video {
-    grid-column: 1 / -1; /* spans all three columns */
-    width: 100%;
-    height: auto;
-    display: block;
-}
-/* Row 2 and 3 styling; photo styling */
-figure img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border: 2px solid #000000;
-} 
-/* main H1 styling */
-main h1 {
-    grid-column: 1 / -1;
-}
-/* text item styling */
-.text-block {
-    grid-column: span 2; /* makes content span columns 2 and 3 */
-    padding: 20px;
-}
-.text-item h2 {
-    margin-top: 0;
-    margin-bottom: 15px;
-}
-.text-item p {
-    margin: 0;
-    line-height: 1.6;
-}
-/* Row 4 spans the entire main grid */
-.row-four {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-/* figure caption styling */
-.about-grid figure {
-    width: 100%;
-    max-width: 200px; /* This makes it same width of image on About page */
-    margin: 0;
-}
-figcaption {
-    width: 100%;
-    font-size: 14px;
-    font-style: italic;
-    margin-top: 5px;
-}
-/* about figure image styling is above with the rows */
 /* Body styling */
 body {
     font-family: Palatino, Georgia, serif;
@@ -174,7 +110,7 @@ p {
     padding-top: 0;
     margin-top: 2px;
 }
-    /* Resource box styling. Borders are for demonstrating the box model and will be removed in final version of the website. */
+/* Resource box styling. Borders are for demonstrating the box model and will be removed in final version of the website. */
 .resource-box {
     border: 2px solid #000000;
     padding: 20px;
@@ -188,38 +124,6 @@ p {
     margin: 20px 0;
     border: 2px solid #000000;
 }  
-/* Margin for printing */
-@page {
-    margin: 1in;
-}
-/* Print styling - including most of written content because I'm not sure how to match my page with the listed requirements*/
-@media print {
-    nav, .button, .download-button, img, .float-image, .video, .logo {
-        display: none;
-    }
-    body {
-        color: #000000; 
-        font-size: 10pt;
-        font-family: Palatino, Georgia, serif;
-        background-color: #ffffff;
-    }
-    p { 
-        margin: 5px 0;
-        line-height: 1.2;
-    }
-    h1, h2, h3, p, li, footer {
-        color: #000000;
-        font-family: Palatino, Georgia, serif;
-        font-size: 10pt;
-    }
-    footer {
-        background-image: none;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        font-size: 10pt;
-    }
-}
 /* footer styling */
 footer {
     background-image: url("webcontent/footer-background.jpg");
@@ -288,6 +192,143 @@ form input[type="submit"]:hover {
     background-color: #a51e22;
     color: #ffffff; 
 }
+/* Grid styling for the About page */
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr; 
+    grid-template-rows: auto auto auto auto;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Row 1 styling; video styling */
+.intro {
+    grid-column: 1 / -1;   
+}
+.video {
+    grid-column: 1 / -1; /* spans all three columns */
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* Row 2 and 3 styling; photo styling */
+.about-grid figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid #000000;
+} 
+/* main H1 styling */
+main h1 {
+    grid-column: 1 / -1;
+}
+/* text item styling */
+.text-block {
+    grid-column: span 2; /* makes content span columns 2 and 3 */
+    padding: 20px;
+}
+.text-item h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.text-item p {
+    margin: 0;
+    line-height: 1.6;
+}
+/* Row 4 spans the entire main grid */
+.row-four {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+/* figure caption styling */
+.about-grid figure {
+    width: 100%;
+    max-width: 200px; /* This makes it same width of image on About page */
+    margin: 0;
+}
+figcaption {
+    width: 100%;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+}
+/* Grid styling for the Theme page */
+.theme-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto auto;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Row 1 styling for the Theme page uses same intro styling as About page so no need to repeat */
+/* Row 2 styling for the Theme page */
+.photo-item {
+    display: flex;
+    flex-direction: column;
+}
+/* Row 3 styling for the Theme page */
+.featured-photo {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+}
+/* Image styling for the Theme page */
+.theme-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid #000000;
+}
+/* Caption styling for the Theme page */
+.theme-grid figcaption {
+    margin-top: 5px;
+    font-size: 14px;
+    font-style: italic;
+}
+/* Paragraph styling for the Theme page */
+.photo-item p,
+.featured-photo p {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+/* Margin for printing */
+@page {
+    margin: 1in;
+}
+/* Print styling - including most of written content because I'm not sure how to match my page with the listed requirements*/
+@media print {
+    nav, .button, .download-button, img, .float-image, .video, .logo {
+        display: none;
+    }
+    body {
+        color: #000000; 
+        font-size: 10pt;
+        font-family: Palatino, Georgia, serif;
+        background-color: #ffffff;
+    }
+    p { 
+        margin: 5px 0;
+        line-height: 1.2;
+    }
+    h1, h2, h3, p, li, footer {
+        color: #000000;
+        font-family: Palatino, Georgia, serif;
+        font-size: 10pt;
+    }
+    footer {
+        background-image: none;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-size: 10pt;
+    }
+}
+/* about figure image styling is above with the rows */
 /* form styling to make the form more responsive on mobile devices */
 @media (max-width: 600px) {
     form {
@@ -322,4 +363,14 @@ form input[type="submit"]:hover {
     body {
         margin: 15px;
     }
-}
+
+/* styling to make the Theme page look better on mobile devices */
+    .theme-grid {
+        grid-template-columns: 1fr;
+    }
+    .intro,
+    .photo-item,
+    .featured-photo {
+        grid-column: 1;
+        }
+    }
