@@ -3,7 +3,6 @@ body {
     font-family: Palatino, Georgia, serif;
     margin: 0;
     padding: 0;
-    font-family: Palatino, Georgia, serif;
     background-color: #ffffff;
 }
 /* Heading 1 styling */
@@ -54,6 +53,7 @@ p {
     main {
         margin: 0;
         padding: 0;
+        padding: 20px;
     }
 /* My black button style */
 .button {
@@ -63,11 +63,13 @@ p {
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color .3s ease;
 }
 /* Button hover styling */
 .button:hover {
      background-color: #a51e22;
     color: #ffffff; 
+    transition: background-color .3s ease;
 }
 /* Download button styling */
 .download-button {
@@ -338,7 +340,7 @@ figcaption {
         font-size: 10pt;
     }
     footer {
-        background-image: img;
+        background-image: none;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
