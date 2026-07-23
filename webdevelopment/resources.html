@@ -8,16 +8,21 @@
   Description: This is the resources page for my MPW Exhibit website that I'm creating for my Web Design and Development course. It includes the basic structure of an HTML document, with a linked CSS file for styling.-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <title>Resources</title>
          <!-- Link to external CSS for styling -->  <link rel="stylesheet" href="style.css">
        <!-- Link to external CSS for navigation styling -->  <link rel="stylesheet" href="nav.css">
     </head>
     <body>
-        <header> 
-               <!-- This is the official logo for the Missouri Photo Workshop --> 
+       <header> 
+             <!-- This is the official logo for the Missouri Photo Workshop --> 
             <a href="index.html">
-                <img src="webcontent/MPW78logocrop.jpg" alt="official logo" class="logo">
+                <img src="webcontent/MPW78logocrop.jpg" alt="Missouri Photo Workshop logo" class="logo">
             </a>
+             <!-- This adds the hidden checkbox  --> 
+                 <input type="checkbox" id="menu-toggle">
+            <!-- This adds the hamburger menu  --> 
+                <label for="menu-toggle" class="hamburger">☰</label>
             <nav>
                 <ul class="navigation">
                     <li><a href="index.html">Home</a></li>
