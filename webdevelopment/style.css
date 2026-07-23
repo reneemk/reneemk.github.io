@@ -287,8 +287,7 @@ figcaption {
 /* Styling for the images on the Theme page to keep them the same size */
 .theme-grid img{
     width: 100%;
-    height: 300px;
-    object-fit: cover;
+    height: auto;
     display: block;
     border: 2px solid #000000;
 }
@@ -297,6 +296,10 @@ figcaption {
 .photo-item {
     display: flex;
     flex-direction: column;
+}
+/* Keeps the figures equal height */
+.photo-item figure {
+    flex-grow: 1;
 }
 /* Row 3 styling for the Theme page */
 .featured-photo {
