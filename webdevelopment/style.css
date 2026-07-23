@@ -34,7 +34,9 @@ p {
 }
 /* Hero section styling */
 .hero {
-    background-image: url("webcontent/mpw08background45.png");
+    background:
+        linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,.06)),
+        url("webcontent/mpw08background45.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
