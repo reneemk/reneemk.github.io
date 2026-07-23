@@ -34,10 +34,12 @@ p {
 }
 /* Hero section styling */
 .hero {
+    background-image: url("webcontent/mpw08background45.png");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 100px 20px;
     text-align: center;
-    color: #fff;
 }
 /* My black button style */
 .button {
@@ -382,4 +384,14 @@ figcaption {
     .featured-photo {
         grid-column: 1;
         }
+/* styling to make the Hero section look better on mobile devices */
+    .hero {
+    padding: 60px 15px;
     }
+    .hero h1 {
+        font-size: 30px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+}
