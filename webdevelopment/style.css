@@ -142,7 +142,9 @@ p {
 }  
 /* footer styling */
 footer {
-    background-image: url("webcontent/footer-background.jpg");
+    background:
+        linear-gradient(rgba(255,255,255,.06), rgba(255,255,255,.06)),
+        url("webcontent/footer-background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
