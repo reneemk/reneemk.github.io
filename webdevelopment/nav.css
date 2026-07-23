@@ -87,6 +87,13 @@ nav {
     cursor: pointer;
     padding: 10px;
 }
+/* Hamburger icon style changes to X when menu is open*/
+.hamburger::after {
+    content: "☰";
+}
+#menu-toggle:checked + .hamburger::after {
+    content: "✕";
+}
 /* Desktop layout */
 @media (min-width: 768px) {
     /* Hide hamburger on desktop */
@@ -124,5 +131,9 @@ nav {
     }
     .hamburger {
         display: block;
+        font-size: 2em;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 10px;
     }
 }
