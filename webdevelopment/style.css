@@ -60,7 +60,7 @@ p {
     line-height: 1.4;
     margin: 30px auto;
     max-width: 800px;
-    text-shadow: 1px 1px 5px #ffffff;
+    text-shadow: 1px 1px 3px #000000;
 }
 .hero blockquote cite {
     display: block;
