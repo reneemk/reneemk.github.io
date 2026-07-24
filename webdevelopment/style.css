@@ -56,15 +56,40 @@ p {
         padding: 20px;
     }
 /* Table styling */
-table, th, td {
-    border: 1px solid black;
+.director-table {
+    width: 40%;
     border-collapse: collapse;
+    border: 2px solid black;
 }
-th, td {
-    padding: 15 px;
-}
-th {
+.director-table th,
+.director-table td {
+    border: 1px solid #000000;
+    padding: 10px;
     text-align: left;
+}
+/* Table styling for table head */
+.director-table thead {
+    background-color: #a51e22;
+    color: white;
+}
+/* Table styling for table footer */
+.director-table tfoot {
+    background-color: #dddddd;
+    font-style: italic;
+}
+/* Table styling for the caption */
+.director-table caption {
+    caption-side: top;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* Adding color to every other row in table */
+.director-table tbody tr:nth-child(odd) {
+    background-color: #d3d3d3;
+}
+.director-table tbody tr:nth-child(even) {
+    background-color:#ffffff;
 }
 /* My black button style */
 .button {
@@ -432,5 +457,15 @@ figcaption {
     }
     .hero p {
         font-size: 16px;
+    }
+    /* styling to make the table look better on mobile devices */
+    .director-table {
+        display: block;
+        overflow-x: auto;
+    }
+    .director-table th,
+    .director-table td {
+        font-size: 14px;
+        padding: 8px;
     }
 }
