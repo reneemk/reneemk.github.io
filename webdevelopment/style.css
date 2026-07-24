@@ -185,6 +185,15 @@ p {
     padding: 20px;
     margin-bottom: 20px;
 }
+.resource-box figure {
+    margin: 20px 0;
+}
+.resource-box figcaption {
+    text-align: center;
+    font-size: 14px;
+    font-size: italic;
+    margin-top: 8px;
+}
 /* Image styling to be used for images not on About page */
 .image {
     width: 100%;
@@ -193,6 +202,14 @@ p {
     margin: 20px 0;
     border: 2px solid #000000;
 }  
+/* Image styling for Clinton photo on Resource page */
+.Clinton-image {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #000000;
+}
 /* footer styling */
 footer {
     background:
