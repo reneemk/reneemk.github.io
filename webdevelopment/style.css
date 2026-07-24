@@ -92,6 +92,11 @@ p {
     background-color:#ffffff;
 }
 /* Adding in map next to table */
+.director-layour {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
 .director-layout figure {
     margin: 0;
     width: 40%;
