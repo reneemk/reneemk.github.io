@@ -266,6 +266,9 @@ footer img {
     margin-right: 5px;
     transition: transforms 0.3s ease;
 }
+footer p {
+    margin: 8px 0;
+}
 /* footer transition to make icons enlarge on hover */
 footer img:hover {
     transform: scale(1.2);
