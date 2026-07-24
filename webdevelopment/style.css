@@ -45,7 +45,7 @@ p {
         linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,.6)),
         url("webcontent/mpw08background45.png");
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     padding: 100px 20px;
     text-align: center;
