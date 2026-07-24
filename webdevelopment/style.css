@@ -254,13 +254,21 @@ footer {
     margin-top: 0;
     padding: 15px;
 }
-/* footer icon styling */
+/* footer icon styling with transition and white box behind icons */
 footer img {
-    width: 20px;
-    height: 20px;
+    background-color: #ffffff;
+    padding: 2px;
+    border-radius: 3px;
+    width: 18px;
+    height: 18px;
     vertical-align: middle;
     object-fit: contain;
     margin-right: 5px;
+    transition: transforms 0.3s ease;
+}
+/* footer transition to make icons enlarge on hover */
+footer img:hover {
+    transform: scale(1.2);
 }
 /* form styling */
 form {
