@@ -254,7 +254,7 @@ footer {
     margin-top: 0;
     padding: 15px;
 }
-/* footer icon styling with transition and white box behind icons */
+/* All footer icon styling with white box behind icons */
 footer img {
     background-color: #ffffff;
     padding: 2px;
@@ -264,7 +264,6 @@ footer img {
     vertical-align: middle;
     object-fit: contain;
     margin-right: 5px;
-    transition: transforms 0.3s ease;
 }
 footer p {
     color: #ffffff;
@@ -272,8 +271,12 @@ footer p {
     line-height: 1.5;
     margin: 8px 0;
 }
+/* Only email and phone icons animate */
+.contact-icon {
+    transition: transform 0.3s ease;
+}
 /* footer transition to make icons enlarge on hover */
-footer img:hover {
+.contact-icon:hover {
     transform: scale(1.2);
 }
 footer a {
