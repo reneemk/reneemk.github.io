@@ -32,7 +32,7 @@ p {
     font-size: 18px;
     line-height: 1.5;
 }
-/* Custon font from Google Fonts applied to site */
+/* Custom font from Google Fonts applied to site */
 .prata-regular {
   font-family: "Prata", serif;
   font-weight: 400;
@@ -60,7 +60,7 @@ p {
     line-height: 1.4;
     margin: 30px auto;
     max-width: 800px;
-    text-shadow: 1 px 1 px 5 px #ffffff;
+    text-shadow: 1px 1px 5px #ffffff;
 }
 .hero blockquote cite {
     display: block;
@@ -75,7 +75,6 @@ p {
     /* Main section styling */
     main {
         margin: 0;
-        padding: 0;
         padding: 20px;
     }
 /* Table styling */
@@ -409,7 +408,7 @@ figure figcaption {
 }
 /* Adding text decoration to h1 on theme page only */
 .theme-grid h1 {
-    letter-spacing: 1 px;
+    letter-spacing: 1px;
 }
 /* Adding text decoration to h2 on theme page only */
 .theme-grid h2 {
@@ -439,13 +438,6 @@ figure figcaption {
     grid-column: 1 / -1;
     display: flex;
     flex-direction: column;
-}
-/* Image styling for the Theme page */
-.theme-grid img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border: 2px solid #000000;
 }
 /* Caption styling for the Theme page */
 .theme-grid figcaption {
