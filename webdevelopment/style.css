@@ -60,7 +60,7 @@ p {
     line-height: 1.4;
     margin: 30px auto;
     max-width: 800px;
-    text-shadow: 1 px 1 px 3 px #ffffff;
+    text-shadow: 1 px 1 px 5 px #ffffff;
 }
 .hero blockquote cite {
     display: block;
@@ -381,6 +381,16 @@ figure figcaption {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+}
+/* Adding text decoration to h1 on theme page only */
+.theme-grid h1 {
+    letter-spacing: 1 px;
+}
+/* Adding text decoration to h2 on theme page only */
+.theme-grid h2 {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
 }
 /* Styling for the images on the Theme page to keep them the same size */
 .theme-grid img{
