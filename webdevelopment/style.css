@@ -551,6 +551,7 @@ figure figcaption {
     .director-table {
         display: block;
         overflow-x: auto;
+        border: none;
     }
     .director-table th,
     .director-table td {
