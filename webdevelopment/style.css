@@ -176,10 +176,13 @@ p {
     font-weight: bold;
     color: #a51e22;
     float: left;
-    line-height: 0.8;
+    line-height: 0.9;
     padding-right: 8px;
     padding-top: 0;
-    margin-top: 2px;
+    margin-top: 3px;
+}
+.drop-cap {
+    line-height: 1.5;
 }
 /* Resource box styling. Borders are for demonstrating the box model and will be removed in final version of the website. */
 .resource-box {
