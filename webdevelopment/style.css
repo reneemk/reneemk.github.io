@@ -60,13 +60,14 @@ p {
     line-height: 1.4;
     margin: 30px auto;
     max-width: 800px;
-    text-shadow: 1px 1px 3px #000000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
 }
 .hero blockquote cite {
     display: block;
     font-size: 16px;
     margin-top: 10px;
     font-style: normal;
+    text-shadow: none;
 }
     /* Remove bottom margin from last paragraph in hero so image extends down to footer */
     .hero p:last-child {
