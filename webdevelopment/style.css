@@ -45,6 +45,23 @@ p {
     margin: 0;
     margin-bottom: 0;
     }
+/* Block quote styling */
+.hero blockquote {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.4;
+    margin: 30px auto;
+    max-width: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-shadow: 1 px 1 px 3 px #ffffff;
+}
+.hero blockquote cite {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    font-style: normal;
+}
     /* Remove bottom margin from last paragraph in hero so image extends down to footer */
     .hero p:last-child {
         margin-bottom: 0;
