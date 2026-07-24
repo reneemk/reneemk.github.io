@@ -188,9 +188,11 @@ p {
     margin-bottom: 20px;
 }
 .resource-box figure {
+    width: 60%;
     margin: 20px 0;
 }
 .resource-box figcaption {
+    width: 100%;
     text-align: left;
     font-size: 14px;
     font-style: italic;
@@ -206,7 +208,7 @@ p {
 }  
 /* Image styling for Clinton photo on Resource page */
 .Clinton-image {
-    width: 60%;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0;
@@ -338,7 +340,7 @@ main h1 {
     max-width: 200px; /* This makes it same width of image on About page */
     margin: 0;
 }
-figcaption {
+figure figcaption {
     width: 100%;
     font-size: 14px;
     font-style: italic;
