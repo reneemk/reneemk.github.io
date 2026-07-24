@@ -57,7 +57,7 @@ p {
     }
 /* Table styling */
 .director-table {
-    width: 40%;
+    flex: 1;
     border-collapse: collapse;
     border: 2px solid black;
 }
@@ -92,18 +92,19 @@ p {
     background-color:#ffffff;
 }
 /* Adding in map next to table */
-.director-layour {
+.director-layout {
     display: flex;
     align-items: flex-start;
     gap: 30px;
 }
 .director-layout figure {
+    flex: 1;
     margin: 0;
-    width: 40%;
 }
 .director-image {
     width: 70%;
     height: auto;
+    display: block;
 }
 /* My black button style */
 .button {
@@ -490,6 +491,6 @@ figcaption {
         width: 100%;
     }
     .director-image {
-        width: 70%;
+        width: 100%;
     }
 }
