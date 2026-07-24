@@ -32,6 +32,13 @@ p {
     font-size: 18px;
     line-height: 1.5;
 }
+/* Custon font from Google Fonts applied to site */
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Hero section styling */
 .hero {
     background:
