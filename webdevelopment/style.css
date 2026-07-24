@@ -91,6 +91,15 @@ p {
 .director-table tbody tr:nth-child(even) {
     background-color:#ffffff;
 }
+/* Adding in map next to table */
+.director-layout figure {
+    margin: 0;
+    width: 40%;
+}
+.director-image {
+    width: 70%;
+    height: auto;
+}
 /* My black button style */
 .button {
     background-color: #000000;
@@ -467,5 +476,15 @@ figcaption {
     .director-table td {
         font-size: 14px;
         padding: 8px;
+    }
+    .director-layout {
+        flex-direction: column;
+    }
+    .director-table,
+    .director-layout figure {
+        width: 100%;
+    }
+    .director-image {
+        width: 70%;
     }
 }
