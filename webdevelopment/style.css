@@ -94,6 +94,7 @@ p {
 /* Adding in map next to table */
 .director-layout {
     display: flex;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 30px;
 }
@@ -204,10 +205,10 @@ p {
 }  
 /* Image styling for Clinton photo on Resource page */
 .Clinton-image {
-    width: 85%;
+    width: 60%;
     height: auto;
     display: block;
-    margin: 20px auto;
+    margin: 0;
     border: 2px solid #000000;
 }
 /* footer styling */
