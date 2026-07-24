@@ -245,7 +245,7 @@ footer {
     background:
         url("webcontent/footerimage.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 80% center;
     background-repeat: no-repeat;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
