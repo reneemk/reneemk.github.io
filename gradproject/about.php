@@ -1,0 +1,80 @@
+<?php
+session_start();
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <!--
+  Name: Renee Martin-Kratzer
+  Date: July 29, 2026
+  Course: Web Design and Development
+  Description: This is the about page for my website. It includes the basic structure of an HTML document, with a linked CSS file for styling. More content will be added as we progress through the course.-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <title>About the Missouri Photo Workshop's 75th Exhibit</title>
+       <!-- Link to external CSS for styling -->  <link rel="stylesheet" href="style.css">
+               <!-- Link to external CSS for navigation styling -->  <link rel="stylesheet" href="nav.css">
+    </head>
+    <body>
+    <!-- include header -->
+    <?php 
+    require_once("header.php");
+    ?>
+       <!-- The main content will go below. This class keeps the styling to the about page. -->
+        <main class="about-grid">
+                   <!-- Grid layout for content begins: Row 1 -->
+                    <section class="intro">
+             <h1>Learn more about the Missouri Photo Workshop's Exhibit</h1>
+            <video controls class="video"> <source src="webcontent/MPWsmall.mp4" type="video/mp4"> Your browser does not support the video tag. 
+            </video>
+            </section>
+            <!-- Row 2 begins Link to image of Cliff --> 
+        <figure>
+         <img src="webcontent/Edoms.jpg" alt="Cliff and Vi Edom">
+         <figcaption> Photo of Cliff and Vi Edom by Keith Myers</figcaption>
+         </figure>
+        <section class="text-block">
+            <h2>How the Missouri Photo Workshop Began</h2>  
+         <p class="drop-cap">Cliff Edom, often credited as the “father of photojournalism education,” started the Missouri Photo Workshop in 1949. His wife, Vi Edom, was an integral part of the workshop. Cliff was inspired by the Farm Security Administration photojournalists who captured life in America during the Great Depression. The workshop started in Columbia, Missouri, and has branched out to more than 50 rural towns over the past seven decades.</p>
+        </section>
+            <!-- Row 3 begins; Link to image of Brian --> 
+            <figure>
+            <img src="webcontent/briankratzer.jpg" alt="Brian Kratzer">
+            <figcaption>Photo courtesy of the Missouri School of Journalism</figcaption>
+            </figure>
+            <section class="text-block">
+            <h2>About The Workshop Director</h2>
+            <p>Brian Kratzer is a professor at the University of Missouri and the photo director for the Columbia Missourian. During his career, he has worked at the Moscow-Pullman Daily News, the Columbia Daily Tribune and the Gainesville Sun. Brian was a participant in the Missouri Photo Workshop as a graduate student at the University of Missouri and later served as a faculty member. He became director of the workshop in 2019 and is committed to helping photojournalists learn the value of telling longer stories.</p>
+        </section>  
+     <!-- Row 4 begins. This is a nested grid with the three text blocks in a container --> 
+      <div class="row-four"> 
+      <section class="text-item">
+         <h2>Workshop Highlights</h2>
+            <ul class="unordered-list">
+            <li>Teaching more than 3,000 photojournalists how to shoot and edit a photo story</li>
+            <li>Having more than 200 renowned faculty members across the years</li>
+            <li>Bringing communities together to learn more about their fellow citizens</li>
+            <li>Being the premiere photo editing workshop in the United States</li>
+            </ul>        
+        </section>
+        <section class="text-item">
+         <h2>Workshop Faculty</h2>
+        <p>The faculty is made up of accomplished photo editors from America's leading newspapers, magazines and online news organizations. The workshop still follows Cliff’s motto: “Show truth with a camera. Ideally truth is a matter of personal integrity. In no circumstances will a posed or faked photograph be tolerated.” This exhibit features one photograph from each of the workshop years and documents daily life in Missouri from 1949 to today.
+        </p>
+        </section>
+        <section class="text-item">
+            <h2>Download the 2026 MPW poster</h2>
+        <a class="download-button" href="webcontent/MartinKratzerMPWposter.pdf">Download the MPW Poster</a>
+         </section>
+         </div>
+        </main> 
+        <!-- include footer -->
+     <?php
+    require_once("footer.php");
+    ?>
+    </body>
+</html>
+<!-- end of HTML -->

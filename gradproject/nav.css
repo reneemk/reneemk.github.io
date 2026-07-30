@@ -1,0 +1,139 @@
+/* site header style*/
+header {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; 
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+/* navigation style */
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+/* navigation links */
+.navigation a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px 15px;
+    display: inline-block;
+}   
+/* navigation li*/
+.navigation li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+/* navigation links hover effect */
+.navigation a:hover {
+    background-color: #a51e22;
+    color: #ffffff;
+}
+nav {
+    display: block;
+}
+/* logo style */
+.logo {
+    width: 50%;
+    max-width: 300px;
+    min-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0;
+    flex-shrink: 0;
+}
+/* drop down style and hide submenu by default */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+    min-width: 200px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* dropdown content links style */
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* dropdown content links hover effect */
+.dropdown-content a:hover {
+    background-color: #a51e22;
+}
+/* Hide the checkbox */
+#menu-toggle {
+    display: none;
+}
+/* Hamburger icon style hidden by default */
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+}
+/* Hamburger icon style changes to X when menu is open*/
+.hamburger::after {
+    content: "☰";
+}
+#menu-toggle:checked + .hamburger::after {
+    content: "✕";
+}
+/* Desktop layout */
+@media (min-width: 768px) {
+    /* Hide hamburger on desktop */
+  .hamburger {
+    display: none;
+  }
+  /* show dropdown content when hovering over the parent */
+.dropdown:hover .dropdown-content {
+    display: block;
+    }
+/* Keeps navigation horizontal */
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    }
+}
+/* Stack mobile menu links vertically and hide Resources submenu on mobile */
+@media (max-width: 767px) {
+    nav {
+        display: none;
+    }
+    /* Show navigation when hamburger is clicked */
+    #menu-toggle:checked + .hamburger + nav {
+        display: block;
+    }
+    .navigation {
+        flex-direction: column;
+        gap: 0;
+    }
+    .dropdown-content {
+        display: none;
+        position: static;
+    }
+    .hamburger {
+        display: block;
+        font-size: 2em;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 10px;
+    }
+}
