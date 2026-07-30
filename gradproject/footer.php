@@ -1,6 +1,6 @@
 
 <!-- start of footer -->
-            <footer>Renee Martin-Kratzer<br>
+            <footer>
                 <p>
                     <a href="mailto:ReneeMK@yahoo.com">
                     <img src="webcontent/icons8-mail-50.png" 
