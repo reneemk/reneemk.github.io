@@ -570,7 +570,8 @@ figure figcaption {
         width: 100%;
     }
 }
-.copyright {
+footer p.copyright {
     color: #a51e22;
     font-size: 14px;
+    transform: translateY(50px);
 }

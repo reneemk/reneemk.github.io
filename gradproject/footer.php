@@ -17,7 +17,7 @@
                 </p>
                 <p>July 29, 2026</p>
                 <p class="copyright">
-                    &copy; 2026 Renee Martin-Kratzer. All rights reserved.
+                    &copy; 2026 Renee Martin-Kratzer.&nbsp;All rights reserved.
                 </p>
             </footer> 
 <!-- end of footer -->
